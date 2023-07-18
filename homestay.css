@@ -1,0 +1,238 @@
+    .navi{
+    position: sticky;
+    /* top: -10px;
+    left: 0; */
+    background-color: rgb(111, 179, 8);
+    border: 3px black solid;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+  }
+  .navi ul{
+    position: absolute;
+    left: 300px;
+    top: -7px;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+  .navi a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(246, 6, 6);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+    opacity: 1;
+  }
+  .navi a:hover{
+    color: rgb(241, 245, 243);
+    text-shadow: 4px 4px 7px rgb(6, 6, 6);
+    position: static;
+  } 
+  .home .carousel-inner{
+    width: 25%;
+    height: 500px;
+}
+.carousel-inner img{
+    height: 600px;
+    width: 650px;
+}
+.card{
+    position: absolute;
+    left: 500px;
+}
+.book{
+    font-style: italic;
+    color: rgb(138, 236, 40);
+}
+.near{
+    position: absolute;
+    top: 1250px;
+    font-style: italic;
+    color: rgb(138, 236, 40);
+}
+.map1{
+    position: absolute;
+    top: 1350px;
+    left: 20px;
+    
+}
+.name1{
+    position: absolute;
+    top: 1300px;
+    left: 20px;
+    color: rgb(248, 6, 71);
+    font-size: 20px;
+    font-style: italic;
+}
+.map2{
+    position: absolute;
+    top: 1350px;
+    left: 340px;
+}
+.name2{
+    position: absolute;
+    top: 1300px;
+    left: 350px;
+    color: rgb(248, 6, 71);
+    font-size: 20px;
+    font-style: italic;
+}
+.map3{
+    position: absolute;
+    top: 1350px;
+    left: 650px;
+    
+}
+.name3{
+    position: absolute;
+    top: 1300px;
+    left: 650px;
+    color: rgb(248, 6, 71);
+    font-size: 20px;
+    font-style: italic;
+}
+.map4{
+    position: absolute;
+    top: 1350px;
+    left: 950px;
+}
+.name4{
+    position: absolute;
+    top: 1300px;
+    left: 950px;
+    color: rgb(248, 6, 71);
+    font-size: 20px;
+    font-style: italic;
+}
+.gal{
+    position: absolute;
+    top: 1650px;
+    left: 0px;
+    color: rgb(138, 236, 40);
+}
+.mane{
+    position: absolute;
+    top:1700px;
+    
+}
+.lg1{
+    position: absolute;
+    left: 100px;
+    border: 5px red solid;
+}
+.lg2{
+    position: absolute;
+    left: 400px;
+    border: 5px red solid;
+}
+.lg3{
+    position: absolute;
+    left: 700px;
+    border: 5px red solid;
+}
+.lg4{
+    position: absolute;
+    left: 1000px;
+    border: 5px red solid;
+}
+.lg5{
+    position: absolute;
+    left: 250px;
+    top: 300px;
+    border: 5px red solid;
+}
+.lg6{
+    position: absolute;
+    left: 550px;
+    top: 300px;
+    border: 5px red solid;
+    
+}
+.lg7{
+    position: absolute;
+    left: 850px;
+    top: 300px;
+    border: 5px red solid;
+}
+.abt{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 2400px;
+    left: 0;
+}
+.hst1{
+    background-image: linear-gradient(to top,rgb(230, 41, 73),orange);
+    height: 100%;
+    /* background-repeat: no-repeat; */
+    /* background-blend-mode: lighten; */
+}
+/* .fa-phone{
+    position: absolute;
+    left: 750px;
+} */
+.ph1{
+    position: absolute;
+    left: 775px;
+    top: 10px;
+}
+.social-icons{
+	padding:30px;
+	background-color:black;
+  text-align: center;
+}
+.social-icons a{
+	color:#fff;
+  line-height:30px;
+  font-size:30px;
+  margin: 0 5px;
+  text-decoration:none;
+  
+}
+.social-icons a i{
+	line-height:30px;
+  font-size:30px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+  
+}
+.social-icons a:hover i{
+  box-shadow: 0px 0px 150px black;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+}
+.fa-facebook-square{
+    position: absolute;
+    left: 175px;
+    top: 100px;
+}
+.fa-twitter-square{
+    position: absolute;
+    left: 225px;
+    top: 100px;
+}
+.fa-instagram{
+    position: absolute;
+    left: 275px;
+    top: 100px;
+}

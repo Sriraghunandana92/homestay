@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking</title>
+    <style>
+        .book{
+            position: absolute;
+            left: 25%;
+            top: 20%;
+        }
+        .book legend{
+            color: rgb(241, 181, 28);
+        }
+        .book td{
+            color: lawngreen;
+        }
+    </style>
+</head>
+<body class="book" background="snake.jpg">
+    <form action=""onsubmit="showPopup()" >
+    <fieldset style="width: 550px;" class="field">
+    <table>
+        <legend><i>Book your Room here</i></legend>
+        <tr>
+            <td>Enter your Name</td>
+            <td><input type="text" required></td>
+        </tr>
+        <tr>
+            <td>Enter your mobile number</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td>Enter the numper of persons</td>
+            <td><input type="number"></td>
+        </tr>
+        <td>Food required</td>
+        <td>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="Breakfast">Breakfast</label>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="Lunch">Lunch</label>
+        <input type="radio" id="css" name="fav_language" value="CSS">          
+        <label for="Dinner">Dinner</label>
+        </td>
+        <tr>
+            <td>Number of days</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td><input type="submit"></td>
+            <td><input type="reset"></td>
+        </tr>
+    </table>
+</fieldset>
+</form>
+</body>
+</html>
